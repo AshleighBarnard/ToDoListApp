@@ -32,12 +32,12 @@ var id = parent.id;
 //check if item needs to be added to toDo or completed
 
 var target = (id === 'toDo') ? document.getElementById('completed'):document.getElementById('toDo');
-}
+
 
 parent.removeChild(item);
 target.insertBefore(item, target.childNodes[0]);
 
-
+}
 
 //Adding new items to do list
 function addItemToDo(text) {
