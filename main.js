@@ -37,7 +37,7 @@ var target = (id === 'toDo') ? document.getElementById('completed'):document.get
 parent.removeChild(item);
 target.insertBefore(item, target.childNodes[0]);
 
-}
+
 
 //Adding new items to do list
 function addItemToDo(text) {
